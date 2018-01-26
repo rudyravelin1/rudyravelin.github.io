@@ -36,12 +36,32 @@
 		Your browser does not support the HTML5 canvas tag.
 	</canvas>
 	
-<!-- <script>
-		var c = document.getElementById("myCanvas");
-		var ctx = c.getContext("2d");
-		ctx.font = "20px Arial";
-		ctx.fillText("Hello World I am Rudy",10,50);
-</script> -->
+<script>
+		var canvas = document.getElementById('canvas');
+var context = canvas.getContext('2d');
+var x = 0, y = 0, value = 2;
+
+requestAnimationFrame(animateFunction);
+
+function animateFunction() {
+  context.clearRect(0, 0, canvas.width, canvas.height);
+  context.fillRect(x, y, 50, 50);
+
+if( x >= 0 ){
+  x += value;
+  if( x > 150 ) {
+    y += value; x -= value;
+  }
+}
+
+if( y > 150 ) {
+  x = 0;
+  y = 0;
+}
+
+requestAnimationFrame(animateFunction);
+}
+</script>
 
 
 <h1>Back to Topics Links</h1>
