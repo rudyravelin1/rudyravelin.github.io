@@ -7,6 +7,8 @@
 </head>
 <body>
 	<h1>HTML TAGS</h1>
+
+	<!-- VIDEO CODE EXAMPLE -->
 	<h2>VIDEO</h2>
 	<p>In this page you will the links for this topics.</p>
 
@@ -16,25 +18,28 @@
   			<source src="movie.ogg" type="video/ogg">
 			Your browser does not support the video tag.
 		</video>
-
+			<!-- AUDIO CODE EXAMPLE-->
 		<h1>The Audio</h1>
 	<p>This is for the Audio</p>
-	<a href="audio.html">Click Me</a>
-
-	<audio controls>
+		<audio controls>
 	  			<source src="ed.ogg" type="audio/ogg">
 	  			<source src="ed.mp3" type="audio/mpeg">
 				Your browser does not support the audio element.
 			</audio>
 
+		<!-- 	CANVAS CODE EXAMPLE -->
+
 	<h1>CANVAS</h1>
+	
 	<canvas id="myCanvas" width="300" height="200" style="border:10px solid #d5d5d5;">
-Your browser does not support the HTML5 canvas tag.</canvas>
-	<script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.font = "20px Arial";
-ctx.fillText("Hello World I am Rudy",10,50);
+Your browser does not support the HTML5 canvas tag.
+	</canvas>
+	
+<script>
+		var c = document.getElementById("myCanvas");
+		var ctx = c.getContext("2d");
+		ctx.font = "20px Arial";
+		ctx.fillText("Hello World I am Rudy",10,50);
 </script>
 
 	
