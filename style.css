@@ -21,22 +21,16 @@ a{
 
 body{
     font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
-/*
-   background-color: black;*/
+	text-align: center;
 
 }
 
-.content {
-    max-width: 500px;
-    margin: auto;
-    background: white;
-    padding: 10px;
-
-    }
-
 
 /* you can put your code all in one line like above */
-#page{ margin: 20px; }
+#page{width: 800px;
+     margin: 0 auto;
+
+ }
 
 /* or on different lines like below */
 #logo{
