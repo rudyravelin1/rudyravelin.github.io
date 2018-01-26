@@ -69,6 +69,10 @@ body{
 	padding: 20px;
 	clear: both;
 }*/
+
+#canvas {border: 2px solid red
+}
+
 #footer{
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
