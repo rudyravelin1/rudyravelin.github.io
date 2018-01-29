@@ -1,17 +1,17 @@
 .box {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   background: red;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  -webkit-transition: background-color 2s ease-out;
+  -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
+  -o-transition: background-color 3s ease-out;
+  transition: background-color 4s ease-out;
 }
 
 .box:hover {
-  background-color: green;
+  background-color: blue;
   cursor: pointer;
 }

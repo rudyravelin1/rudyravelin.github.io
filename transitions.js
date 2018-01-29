@@ -1,4 +1,4 @@
-function updateTransition() {
+/*function updateTransition() {
   var el = document.querySelector("div.box");
    
   if (el) {
@@ -12,3 +12,4 @@ function updateTransition() {
 }
 
 var intervalID = window.setInterval(updateTransition, 7000);
+*/
