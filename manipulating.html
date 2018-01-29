@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 <link id="pagestyle" rel="stylesheet" type="text/css" href="style.css">
@@ -26,4 +26,43 @@ function swapStyleSheet(sheet){
 <h1>Back to Topics Links</h1>
 <li><a href="topics.html">CLICK ME</a></li>
 </body>
-</html>
+</html> -->
+<html> 
+ <head>
+  <title>table</title>
+  <style type="text/css">
+   select{
+    margin-left: 40%;
+    margin-top: 20%;
+    width: 300px;
+    height: auto;
+    font-size: 30px;
+    padding-left: 10px;
+   }
+  </style>
+  
+  <script type="text/Javascript">
+
+   function changeColor(color){
+
+    document.getElementsByTagName('Body')[0].style.backgroundColor = color.value;
+
+   }
+
+  </script>
+
+ </head>
+ <body>
+
+  <!-- Choose color and Change body color through option -->
+
+   <select id='c1' size='1' onChange='changeColor(this);'>
+    <option value="select">Select a Color</option>
+    <option value="Red">Red</option>
+    <option value="Yellow">Yellow</option>
+    <option value="Green">Green</option>
+    <option value="Blue">Blue</option>
+   </select>
+
+ </body>
+ </html>﻿
