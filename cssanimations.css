@@ -18,6 +18,13 @@ h1 {
 	border-right: 5px solid #fff000;
 }
 
+a{
+	color: white;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
 
 h2 {
 	color: white;
