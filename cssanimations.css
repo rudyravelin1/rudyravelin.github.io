@@ -1,4 +1,4 @@
-html, body {
+body {
 	height: 100%;
 }
 
@@ -10,10 +10,10 @@ body {
 }
 
 h1 {
-	animation: typing-text 2s steps(24), blink 0.5s infinite alternate;
+	animation: typing-text 5s steps(24), blink 0.5s infinite alternate;
 	overflow: hidden;
 	white-space: nowrap;
-	border-right: 3px solid #000;
+	border-right: 5px solid #fff000;
 }
 
 @keyframes typing-text {
@@ -30,6 +30,6 @@ h1 {
 		border-color: transparent;
 	}
 	to {
-		border-color: #000;
+		border-color: #000fff;
 	}
 }
