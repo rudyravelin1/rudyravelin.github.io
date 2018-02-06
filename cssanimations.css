@@ -18,6 +18,14 @@ h1 {
 	border-right: 5px solid #fff000;
 }
 
+
+h2 {
+	color: red;
+	text-shadow: inherit;
+	text-align: bottom;
+	text-decoration-style: inherit;
+}
+
 @keyframes typing-text {
 	from {
 		width: 0;
