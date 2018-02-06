@@ -1,6 +1,6 @@
 body {
 	height: 100%;
-	background-color: green;
+
 }
 
 body {
@@ -8,6 +8,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-family: monospace;
+	background-color: green;
 }
 
 h1 {
