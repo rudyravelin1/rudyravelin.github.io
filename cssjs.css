@@ -1,0 +1,74 @@
+
+.raindrop {
+    background:center blue;
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+    position: absolute;
+    margin: auto;    
+    left: 75px;
+    top: 75px;
+    animation: ccircle 5s infinite linear;
+    -webkit-animation: ccircle 5s infinite linear;
+}
+
+.raindrop:hover {
+    animation: none;
+    -webkit-animation: none;
+    
+}
+
+.axis {
+    width: 200px;
+    height: 200px;
+    transform: scaleX(2);
+    background-color: none;
+    border: 1px solid black;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+    border-radius: 50%;
+}
+.rotate {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    animation: circle 5s infinite linear;
+    -webkit-animation: circle 5s infinite linear;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    position: absolute;
+}
+.counterrotate {
+    width: 50px;
+    height: 50px;
+    animation: ccircle 5s infinite linear;
+    -webkit-animation: ccircle 5s infinite linear;
+}
+.planet {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius : 50px;
+    left: 0px;
+    top: 0px;
+    background-color: red;
+    display: block;
+}
+@keyframes circle {
+    from {   transform: rotateZ(0deg)    }
+    to {        transform: rotateZ(360deg)    }
+}
+@-webkit-keyframes circle {
+    0% {   -webkit-transform: rotateZ(0deg)    }
+    100% {        -webkit-transform: rotateZ(360deg)    }
+}
+@keyframes ccircle {
+    from {        transform: rotateZ(360deg)    }
+    to {        transform: rotateZ(0deg)    }
+}
+@-webkit-keyframes ccircle {
+    from { -webkit-transform: rotateZ(360deg) }
+    to   { -webkit-transform: rotateZ(0deg)   }
+}
