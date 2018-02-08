@@ -1,4 +1,9 @@
 
+body{
+    background-color: green;
+
+}
+
 .raindrop {
     background:center blue;
     width:50px;
