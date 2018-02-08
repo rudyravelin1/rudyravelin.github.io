@@ -36,13 +36,13 @@
     background-color: none;
     border: 1px solid black;
     left: 50px;
-   /* position: absolute;*/
-    margin: auto;
+    position: absolute;
+   /* margin: auto;
     width: 60%;
     border: 3px solid #73AD21;
     padding: 10px;
     top: 50px;
-    border-radius: 50%;
+    border-radius: 50%;*/
 }
 .rotate {
     width: 100%;
