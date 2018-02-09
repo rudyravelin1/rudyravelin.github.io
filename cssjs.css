@@ -1,6 +1,9 @@
 body{
   background-color: black;
 }
+h1, h2{
+  color: white;
+}
 .zoomPic {
   margin: 30px;
   width: 300px;
