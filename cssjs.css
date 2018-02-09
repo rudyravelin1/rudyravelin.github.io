@@ -26,7 +26,7 @@
     background-color: none;
     border: 1px solid black;
     left: 50px;
-    position: absolute;
+    position: center;
     top: 50px;
     border-radius: 50%;
 }
