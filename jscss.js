@@ -1,3 +1,5 @@
+
+
 var zoomOne = document.getElementsByClassName('zoomPic')[0],
     zoomOneBGSize = window.getComputedStyle(zoomOne).getPropertyValue('background-size'),
     $zoomTwo = $('.zoomPic:eq(1)'),
@@ -19,3 +21,4 @@ document.getElementsByClassName('zoomout')[0].onclick = function() {
   zoomOne.classList.remove('zoom');
   zoomOne.style.backgroundSize = zoomOneBGSize;
 }
+
