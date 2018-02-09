@@ -2,7 +2,7 @@ body{
   background-color: black;
 }
 h1, h2{
-  color: white;
+  text-decoration-color: white;
 }
 .zoomPic {
   margin: 30px;
