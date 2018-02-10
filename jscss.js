@@ -1,3 +1,4 @@
+
 var input = document.querySelector('input')
 var footer = document.querySelector('footer')
 
