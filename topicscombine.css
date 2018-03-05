@@ -1,3 +1,38 @@
+body {
+  background: black;
+  animation: color-me-in 5s infinite; /* other keywords like "infinite alternate" can be useful here */
+  animation-duration: 10s;
+  animation-delay: -2s;
+}
+
+@keyframes color-me-in {
+  0% {
+    background: orange;
+  }
+  /* Adding a step in the middle */
+
+  30% {
+    background: grey;
+  }
+
+  40% {
+    background: green;
+  }
+
+  60% {
+    background: red;
+  }
+
+  50% {
+    background: blue;
+  }
+  100% {
+    background: black;
+  }
+}
+h1, h2{
+	color: white;
+}
 #hd{
 	text-align: center;
 }
