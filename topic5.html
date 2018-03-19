@@ -1,0 +1,31 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Topic5</title>
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <link rel="stylesheet" href="topic5.css">
+        <script type="text/javascript" src="topic5.js"></script>
+    </head>
+    <body>
+       <center><h2>Local Storage API Example</h2>
+        <button type="button" onclick="window.location.href='topics.html'">Back to topics links</button>
+        <p>&nbsp;</p>
+        <div id="result"></div>  
+        <p>Enter the required info in the correct fileds. it will stored locally on the page. Click "Show" to see your information you entered</p>
+        <form id="form" action="#" method="post">
+            <fieldset>
+                <legend>Enter Your Info</legend>
+                <label><span>First Name:</span><input id="firstName" type="text"></label>
+                <label><span>Last Name:</span><input id="lastName" type="text"></label>
+                <label><span>Email:</span><input id="email" type="text"></label>
+                <label><span>Phone:</span><input id="phone" type="text"></label>
+            </fieldset>
+        </form>
+        <button type="button" onClick="populatePerson()">Submit The Info</button>&nbsp;<button type="button" onClick="setUser()">Show The Info</button>&nbsp;<button type="button" onClick="clearItems()">Reset The Info</button>
+        <p>&nbsp;</p>
+        <div id="userOutput"></div>
+        </center> 
+    </body>
+</html>

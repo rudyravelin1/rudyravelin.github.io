@@ -1,0 +1,37 @@
+body {
+    margin: auto;
+    padding: .2rem;
+    max-width: 1000px;
+    font-family: Ubuntu, sans-serif;
+    background-color: grey;
+}
+
+form {
+    /*margin: 0;*/
+   /* padding-top: .0rem;
+    padding-bottom: .0rem;*/
+   /* max-width: 100%;*/
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+}
+
+fieldset {
+    border-radius: .1em;
+    color: white;
+}
+
+label {
+    display: block;
+    margin: .5em;
+    font-size: .8em;
+}
+
+label span {
+    display: block;
+    padding-top: .5em;
+    padding-bottom: .2em;
+}
+
+ p, h2{
+    color: white;
+ }
+}
