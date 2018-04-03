@@ -1,8 +1,9 @@
 body{
 	background-image: url("bg.jpg");
 	text-align: center;
-	color: black;
-	padding-top: 15%
+	color: red;
+	/*padding-top: 15%
+*/	font-size 30px;
 
 
 }
