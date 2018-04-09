@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('#submit').click(function(){
 	
 		var cityName=$('#input').val();
-		var weatherURL="http://api.openweathermap.org/data/2.5/weather?q="+cityName+"&units=metric&appid=b20804012f604fe0be183fa2719dd840";
+		var weatherURL="https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&units=metric&appid=cc6dc565fb7c162349b32730314eaf32";
 
 
 		console.log(weatherURL);
