@@ -3,7 +3,7 @@ body, html{
 	font-size:12px;
 	padding:0px;
 	margin:0px;
-	background-color: white;
+	background-color: black;
 }
 
 
@@ -24,7 +24,7 @@ select  option{
 
 
 .header {
-	background-color:#ffcc00;
+	background-color:#559fff;
 	border-bottom:1px solid black;
 	padding:4px;
 	
@@ -38,7 +38,7 @@ select  option{
 }
 .header select, .header button {
 
-	background-color:#4d4d4d;
+	background-color:#ffffff;
 	font-size: 29px;
 	color: #ff9900;
 	border: 1px solid black;
@@ -46,7 +46,7 @@ select  option{
 }
 .header button {
 	
-	background-color:#4d4d4d;
+	background-color:#ffffff;
 	border-radius:4px;
 	border:1px solid black;
 	display:inline-block;
@@ -58,7 +58,7 @@ select  option{
 }
 
 button:hover {
-	background-color:#000000;
+	background-color:#000ff0;
 }
 
 button:active {
@@ -81,7 +81,7 @@ button:active {
     background: linear-gradient(to bottom, #ffc517, #db5a0f);
     text-shadow: #6f2f09 1px -1px 0px; 
     font: normal normal bold 20px arial;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }
 .button:hover,
