@@ -18,9 +18,6 @@ select  option{
    border-radius: 0;
    height: 34px;
    -webkit-appearance: none;
-    transition:  width 2s, height 4s;
-     transition-delay: 0.5s;
-
       
    }
 
